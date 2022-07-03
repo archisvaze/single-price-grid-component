@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+body {
+    font-size: 16px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.card {
+    height: 500px;
+    width: 680px;
+    border-radius: 9px;
+    overflow: hidden;
+    box-shadow: 2px 15px 20px 10px rgba(0, 0, 0, 0.100);
+}
+
+.top-part {
+    background-color: white;
+    width: 680px;
+    height: 230px;
+    padding: 40px;
+
+}
+
+.top-title {
+    color: hsl(179, 84%, 39%);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.top-sub-title {
+    font-weight: 700;
+    color: #b2df00;
+    text-shadow: 1px 1px #bde0321e;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.top-text {
+    color: rgb(187, 187, 187);
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.bottom-part {
+    display: flex;
+
+}
+
+.left-part {
+    height: 270px;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    width: 350px;
+    padding: 40px;
+}
+
+.left-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.left-text {
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.right-part {
+    height: 270px;
+    background-color: hsl(179, 46%, 52%);
+    color: white;
+    width: 350px;
+    padding: 40px;
+
+}
+
+.right-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: rgba(255, 255, 255, 0.932);
+}
+
+.right-text {
+    color: rgba(255, 255, 255, 0.664);
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.left-part button {
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px 6px rgba(0, 0, 0, 0.123);
+    background-color: #b2df00;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.left-part button:hover{
+    box-shadow: 5px 15px 20px 6px rgba(0, 0, 0, 0.247);
+}
